@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+# 🧠 Recalia - Memory Game Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Project Overview
 
-Currently, two official plugins are available:
+**Recalia** is a simple yet challenging memory game where players match cards in three grid-based modes. With increasing difficulty, it’s designed to train your focus and put your memory to the test.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🟢 **Novice Nostalgia** – 4×4 grid (16 cards)
+- 🟡 **Memory Master** – 5×5 grid (25 cards)
+- 🔴 **Recall Royale** – 6×6 grid (36 cards)
+- 🌙 **Dark Mode** – A sleek, eye-friendly interface for long play sessions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
+- **Framework**: React (Vite)
+- **Language**: TypeScript
+
+## 📦 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/DanielJonthn/recalia.git
+cd recalia
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Open `http://localhost:5173` to view it in the browser.
 
-```js
-// eslint.config.js
-import reactX from "eslint-plugin-react-x";
-import reactDom from "eslint-plugin-react-dom";
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    "react-x": reactX,
-    "react-dom": reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs["recommended-typescript"].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+## 💡 Why I Built This
+
+This project began as a way to sharpen my frontend development skills using React and TypeScript. Along the way, it became a fun exercise in building smooth UI interactions, managing game state logic, and creating something both simple and satisfying to use. Sometimes, the best ideas come from just building — no pressure, just play.
+
+---
+
+### 🔗 Live Demo: _Coming Soon!_
