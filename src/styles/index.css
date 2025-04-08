@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #6f42c1;
+  --secondary-color: #fd7e14;
+  --background-color: #f8f9fa;
+  --card-back-color: #343a40;
+  --card-front-color: #e9ecef;
+  --matched-color: #28a745;
+  --text-color: #212529;
+  --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+.dark-mode:root,
+body.dark-mode {
+  --primary-color: #9d71e8;
+  --secondary-color: #ff9542;
+  --background-color: #121416;
+  --card-back-color: #212529;
+  --card-front-color: #343a40;
+  --matched-color: #2ecc71;
+  --text-color: #e9ecef;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+button:active {
+  transform: translateY(0);
+  background-color: var(--secondary-color);
+}
