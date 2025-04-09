@@ -7,7 +7,7 @@
 ## ✨ Features
 
 - 🟢 **Novice Nostalgia** – 4×4 grid (16 cards)
-- 🟡 **Memory Master** – 5×5 grid (25 cards)
+- 🟡 **Memory Master** – 5×5 grid (24 cards)
 - 🔴 **Recall Royale** – 6×6 grid (36 cards)
 - 🌙 **Dark Mode** – A sleek, eye-friendly interface for long play sessions
 
