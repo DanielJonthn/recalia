@@ -41,4 +41,4 @@ This project began as a way to sharpen my frontend development skills using Reac
 
 ---
 
-### 🔗 Live Demo: _Coming Soon!_
+### 🔗 [Live Demo](https://recalia.vercel.app/)
